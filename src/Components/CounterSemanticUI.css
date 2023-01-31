@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    margin: 10% 0%;
+    text-align: center;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.910), rgba(255, 255, 255, 0.910)), url("https://source.unsplash.com/1600x900/?cloud,rain,fog");
+
+}
+
+h4{
+    padding: 1%;
+    font-size: 22px;
+    color: rgb(3, 3, 109);
+}
+
+.Card{
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    padding: 6% 2%;
+    margin: 4%;
+    text-align: center;
+    border-radius: 4px;
+    background-color: #fff;
+}
+.Count{
+    font-size: 23px;
+    font-weight: 600;
+    margin: 1%;
+}
+.CountNumber{
+    font-size: 25px;
+    font-weight: 900;
+    margin-bottom: 4%;
+}
+
+button{
+    padding: 6px 12px;
+    border: none;
+    border-radius: 4px;
+    margin: 0% 4%;
+    font-size: 18px;
+    color: #fff;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    transition-duration: 0.6s;
+
+}
+button:hover{
+    box-shadow: none;
+    transition-duration: 0.6s;
+}
+.increment{
+    background-color: green;
+}
+
+.primary{
+    background-color: #CB3232 !important;
+}
+
+.secondary{
+    background-color: #cb3232ae !important;
+    cursor: context-menu !important;
+}
+
+.credit{
+    padding: 8% 0%;
+    
+}
+span{
+    color: red;
+    padding: 0px 3px;
+}
+span::after{
+    content: 'By Shaik Irshad - 12020419';
+    color: #000;
+    font-weight: 600;
+}
